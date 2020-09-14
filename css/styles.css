@@ -43,7 +43,7 @@ ul li a:hover {
 }
 
 .banner {
-  margin-top: -150px;
+  margin-top: -160px;
 }
 
 .banner img {
@@ -55,7 +55,36 @@ ul li a:hover {
 section.concept {
   max-width: 960px;
   width: 100%;
-  margin: 0 auto;
+  margin: 60px auto;
+}
+
+section.concept p {
+  line-height: 24px;
+}
+
+section.concept .songs {
+  margin-top: 0 auto;
+  overflow: hidden;
+}
+
+section.concept .songs .draw img {
+  display: block;
+  float: left;
+  max-width: 50%;
+  width: 100%;
+}
+
+section.concept .songs .list {
+  padding-top: 40px;
+  font-size: 18px;
+  padding-left: calc(50% + 32px);
+  display: block;
+  line-height: 48px;
+}
+
+span.orange {
+  color: #f9a826;
+  font-weight: bold;
 }
 
 footer {
