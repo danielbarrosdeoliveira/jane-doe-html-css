@@ -142,7 +142,7 @@ footer {
 /* PAGE ABOUT */
 
 main#about {
-  margin-top: 200px;
+  margin-top: 164px;
 }
 
 main#about .phrases p {
@@ -159,7 +159,7 @@ main#about .phrases span {
 }
 
 main#about .img {
-  margin: 32px 0;
+  margin: 32px 0 64px 0;
 }
 
 main#about .img img {
@@ -167,4 +167,39 @@ main#about .img img {
   max-width: 480px;
   width: 100%;
   margin: 0 auto;
+}
+
+/* MUSIC */
+
+main#music {
+  margin: 164px auto 0 auto;
+  padding: 0;
+}
+
+main#music h1 {
+  text-align: left;
+}
+
+main#music .videos .video iframe {
+  padding: 0;
+  margin: 0;
+}
+
+main#music .videos .video ul {
+  list-style-type: disc;
+  padding-left: 32px;
+}
+
+main#music .videos .video ul li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main#music .videos .video .style-none {
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+main#music .videos .video .style-none li {
+  list-style: none;
 }
