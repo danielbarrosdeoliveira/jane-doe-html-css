@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jane Doe | Home</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Jane Doe</h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contact" class="container">
+    <h1 class="titulo">Contact</h1>
+    <section class="contact-form">
+      <form>
+
+        <div class="box-input">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="box-input">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="box-input">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="10" rows="2" required></textarea>
+        </div>
+
+        <div class="radio">
+          <label for="found">How did you found Jane's Music?</label>
+          <br>
+          <input type="radio" name="found" id="instagram" value="instagram">
+          <label for="instagram">Instagram</label>
+          <br>
+          <input type="radio" name="found" id="found" value="facebook">
+          <label for="instagram">Facebook</label>
+          <br>
+          <input type="radio" name="found" id="found" value="youtube">
+          <label for="youtube">YouTube</label>
+        </div>
+
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="" id="">
+          <label for="message">Do you want to subscribe to our newsletter?</label>
+        </div>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    <section class="map-address">
+      <div class="img">
+        <img src="./img/address.png" alt="Foto da região próximdo ao endereço da cantora">
+      </div>
+    </section>
+    <section class="contact-info">
+      <ul class="contacts">
+        <li class="contact">
+          <h3>MANAGEMENT | Karen Blanche</h3>
+          <ul>
+            <li>email: <a href="mailto:info@mysite.com">info@mysite.com</a></li>
+            <li>phone: <a href=”tel:+1956123456789″>123-456-7890</a></li>
+          </ul>
+        </li>
+        <li class="contact">
+          <h3>BOOKING | Daniel Ku</h3>
+          <ul>
+            <li>email: <a href="mailto:info@mysite.com">info@mysite.com</a></li>
+            <li>phone: <a href=”tel:+1956123456789″>123-456-7890</a></li>
+          </ul>
+        </li>
+        <li class="contact">
+          <h3>LABEL | Wix Records, Jake Coldham</h3>
+          <ul>
+            <li>email: <a href="mailto:info@mysite.com">info@mysite.com</a></li>
+            <li>phone: <a href=”tel:+1956123456789″>123-456-7890</a></li>
+          </ul>
+        </li>
+        <li class="contact">
+          <h3>PR | That Girl Pr, Sarah Brookstone</h3>
+          <ul>
+            <li>email: <a href="mailto:info@mysite.com">info@mysite.com</a></li>
+            <li>phone: <a href=”tel:+1956123456789″>123-456-7890</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; Copiright - Jane Doe | Desenvolvidor por <a href="https://github.com/danielbarrosdeoliveira" target="_blank">Daniel Oliveira</a>
+  </footer>
+</body>
+
+</html>
