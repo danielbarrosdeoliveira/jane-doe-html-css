@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --red: #ff4040;
+  --white: #ffffff;
+}
+
+/* RESET */
+body,
+header,
+section,
+div,
+ul,
+li,
+a,
+footer,
+h1,
+h2,
+h3,
+input,
+label,
+textarea,
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .menu .active {
+  color: var(--red);
+  font-weight: bold;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+footer {
+  background: #ccc;
+  text-align: center;
+  width: 100%;
+  padding: 16px 0px;
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #333;
+  transition: 300ms;
+}
+
+footer a:hover {
+  color: var(--red);
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  padding-top: 16px;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+header .menu ul {
+  list-style: none;
+}
+
+header .menu ul li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header .menu ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #777;
+  transition: color 300ms;
+}
+
+header .menu ul li a:hover {
+  color: var(--red);
+}
+
+.banner img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* HOME CONCEPT */
+
+section.concept {
+  margin-top: 64px;
+}
+
+section.concept p {
+  line-height: 24px;
+}
+
+/* HOME - SONGS */
+
+section.concept .songs {
+  margin: 64px auto;
+  overflow: hidden;
+}
+
+section.concept .songs .draw img {
+  display: block;
+  float: left;
+  max-width: 50%;
+  width: 100%;
+}
+
+section.concept .songs .list {
+  padding-top: 40px;
+  font-size: 18px;
+  padding-left: calc(50% + 32px);
+  display: block;
+  line-height: 48px;
+}
+
+span.orange {
+  color: #f9a826;
+  font-weight: bold;
+}
+
+/* ABOUT */
+
+main#about {
+  margin-top: 164px;
+}
+
+main#about .phrases p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+main#about .phrases span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+
+main#about .img {
+  margin: 32px 0 64px 0;
+}
+
+main#about .img img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* MUSIC */
+
+main#music {
+  margin: 164px auto 0 auto;
+  padding: 0;
+}
+
+main#music h1 {
+  text-align: left;
+}
+
+main#music .videos .video iframe {
+  padding: 0;
+  margin: 0;
+}
+
+main#music .videos .video ul {
+  list-style-type: disc;
+  padding-left: 32px;
+}
+
+main#music .videos .video ul li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main#music .videos .video .style-none {
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+main#music .videos .video .style-none li {
+  list-style: none;
+}
+
+/* CONTACT  */
+
+main#contact {
+  margin-top: 164px;
+}
+
+main#contact h1.titulo {
+  text-align: left;
+}
+
+main#contact .contact-form {
+  max-width: 460px;
+  width: 100%;
+  float: left;
+  margin-top: 32px;
+}
+
+main#contact form .box-input label {
+  display: block;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+main#contact form .box-input input[type="text"],
+main#contact form .box-input input[type="email"],
+main#contact form .box-input textarea {
+  width: 100%;
+  margin: 2px 0;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  outline: 1px solid #888;
+  border: #333;
+}
+
+main#contact form .radio {
+  margin: 16px 0;
+}
+
+main#contact form .radio input {
+  margin-top: 8px;
+}
+
+main#contact form .checkbox {
+  margin-top: 16px;
+}
+
+main#contact form input[type="submit"] {
+  margin-top: 16px;
+  background-color: var(--red);
+  font-weight: bold;
+  color: var(--white);
+  width: 120px;
+  height: 30px;
+  transition: 400ms;
+}
+
+main#contact form input[type="submit"]:hover {
+  cursor: pointer;
+  border-radius: 20px 0 20px 0;
+}
+
+main#contact section.map-address .img img {
+  max-width: 480px;
+  width: 100%;
+  display: block;
+  margin: 32px 0 0 auto;
+}
+
+main#contact section.contact-info {
+  margin-top: 64px;
+}
+
+main#contact section.contact-info h3 {
+  margin: 8px 0;
+}
+
+main#contact section.contact-info .contacts {
+  margin-bottom: 32px;
+}
+
+main#contact section.contact-info .contact {
+  padding: 8px 0;
+}
+
+main#contact section.contact-info .contact::before {
+  content: " ";
+  margin-bottom: 16px;
+  display: block;
+  width: 100%;
+  background: #333;
+  border-top: 1px solid #aaa;
+}
+
+main#contact section.contact-info .contact ul li {
+  padding: 8px 0;
+}

@@ -1,0 +1,169 @@
+/* // Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 300px;
+  }
+
+  header .menu {
+    margin: 16px 0;
+  }
+
+  header .menu ul li {
+    display: block;
+    margin: 8px 0;
+    padding: 8px 2px;
+  }
+
+  .banner img {
+    padding-top: 248px;
+  }
+
+  section.concept {
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  section.concept p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+
+  section.concept .songs {
+    margin: 16px auto;
+  }
+
+  section.concept .songs .draw img {
+    float: none;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  section.concept .songs .list {
+    padding: 0;
+  }
+
+  section.concept .songs .list li {
+    display: block;
+  }
+
+  main#about {
+    margin-top: 300px;
+  }
+
+  main#music {
+    padding-top: 132px;
+    text-align: center;
+  }
+
+  main#music h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  main#music .videos {
+    padding: 0;
+    margin: 0;
+  }
+
+  main#music .videos .video iframe {
+    max-width: 300px;
+    display: block;
+    text-align: center;
+  }
+
+  main#music .videos .video ul {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  main#contact {
+    margin-top: 272px;
+  }
+
+  main#contact .contact-form {
+    float: none;
+  }
+
+  main#contact .map-address {
+    float: none;
+  }
+
+  main#contact .contact-info {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* // Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 680px;
+  }
+
+  section.concept .songs {
+    margin: 32px auto;
+    overflow: hidden;
+  }
+
+  section.concept .songs .list {
+    padding: 0;
+    line-height: 40px;
+  }
+
+  footer#about-footer {
+    position: absolute;
+    bottom: 0;
+  }
+
+  main#music {
+    text-align: center;
+  }
+
+  main#music h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  main#music .videos {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main#music .videos .video {
+    margin: 0 auto;
+  }
+
+  main#music .videos .video iframe {
+    max-width: 480px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  main#music .videos .video ul {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  main#contact .contact-form {
+    max-width: 100%;
+    float: none;
+    display: block;
+  }
+
+  main#contact .map-address {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  main#contact section.map-address .img img {
+    display: block;
+    margin: 64px auto 0 auto;
+  }
+}
